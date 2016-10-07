@@ -4,4 +4,6 @@
      <a href="#/view2/{{j.id}}">{{j.firstname}}</a>
      <button ng-click="delete($index)">{{'del' | translate}}</button>
  </div>
- <p>{{'value' | translate | currency}}</p>
+ <select ng-options="item for item in cur" ng-model="selected"><option value=""> choose currency </option></select>
+ <p>{{'value' | translate | currency:selected}}</p>
+
