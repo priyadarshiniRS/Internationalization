@@ -1,0 +1,20 @@
+{
+  "name": "myApp",
+  "description": "angular basic",
+  "main": "index.js",
+  "authors": [
+    "priyadarshini"
+  ],
+  "license": "ISC",
+  "homepage": "index.html",
+  "private": true,
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "app": "https://github.com/karthikbhat46/app.git",
+    "ngstorage": "^0.3.11",
+    "ng-translation": "^0.0.3",
+    "ng-translate": "*",
+    "angular-translate": "^2.12.1"
+  }
+}
