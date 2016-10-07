@@ -1,0 +1,8 @@
+{
+  "name": "app",
+  "private": true,
+  "version": "0.0.2",
+  "description": "A starter project for AngularJS",
+  "repository": "https://github.com/karthikbhat46/app",
+  "license": "MIT"
+}
