@@ -4,7 +4,7 @@
   "description": "angular basic",
   "main": "index.js",
   "scripts": {
-    "start": "http-server -a localhost -p 8080 -c-1 ./app"
+    "start": "npm install http-server --save && http-server -a localhost -p 8080 -c-1 ./"
   },
   "author": "priyadarshini",
   "license": "ISC",
