@@ -1,0 +1,10 @@
+<form>
+  {{det}}
+
+  {{'fname' | translate}}:<input type="text" ng-model="obj.firstname"><br>
+  {{'lname' | translate}}:<input type="text" ng-model="obj.lastname"><br>
+  {{'ph' | translate}}:<input type="text" ng-model="obj.phone"><br>
+  <button ng-click="reset()">{{'rs' | translate}}</button>
+  <button ng-click="update()">{{'up' | translate}}</button>
+  <button ng-click="clear()">{{'clr' | translate}}</button>
+</form>

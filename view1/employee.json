@@ -1,0 +1,7 @@
+{
+  "emp":[
+    {"id":"1" , "firstname":"Priya" , "lastname":"R" ,"phone":"123456"},
+    {"id":"2" , "firstname":"Karthik" , "lastname":"G","phone":"456789"},
+    {"id":"3" , "firstname":"Pavi" , "lastname":"S","phone":"789123"}
+  ]
+}

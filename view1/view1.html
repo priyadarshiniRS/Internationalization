@@ -1,0 +1,7 @@
+<p>{{'v1' | translate}}</p>
+
+<div ng-repeat="j in emp">
+     <a href="#/view2/{{j.id}}">{{j.firstname}}</a>
+     <button ng-click="delete($index)">{{'del' | translate}}</button>
+ </div>
+ <p>{{'value' | translate | currency}}</p>
