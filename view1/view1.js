@@ -35,7 +35,8 @@ angular.module('myApp.view1', ['ngRoute'])
   //  $scope.emp = data.emp;
 // })
 
-
+  $scope.cur=["$","USD$","£","¢"];
+    
   if($localStorage.load==1){
     console.log('now assign me the updated object');
       var data=empfactory.getDataObj();
