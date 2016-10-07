@@ -1,0 +1,15 @@
+{
+  "name": "myApp",
+  "version": "1.0.0",
+  "description": "angular basic",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -a localhost -p 8080 -c-1 ./app"
+  },
+  "author": "priyadarshini",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.9.0",
+    "ng-translate": "^1.0.3"
+  }
+}
